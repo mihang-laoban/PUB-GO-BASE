@@ -5,7 +5,6 @@ import (
 	"time"
 )
 
-
 func Time2Unix(timeStr string) int64 {
 	stamp, _ := time.ParseInLocation(constant.STD_TIME_FORMAT, timeStr, time.Local)
 	return stamp.Unix()
