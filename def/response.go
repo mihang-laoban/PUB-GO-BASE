@@ -3,11 +3,11 @@ package def
 type RawResponse struct {
 	Code int
 	Message string
-	data interface{}
+	Data interface{}
 }
 
 type Response struct {
 	Code int
 	Message string
-	data map[string]interface{}
+	Data map[string]interface{}
 }
